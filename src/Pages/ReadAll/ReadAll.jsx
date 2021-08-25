@@ -17,8 +17,6 @@ export default function ReadAll() {
         fetchApi()
     }, [])
 
-    console.log(data)
-
     return (
         <>
         {loading === true ? (
