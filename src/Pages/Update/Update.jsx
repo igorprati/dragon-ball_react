@@ -4,7 +4,6 @@ import { Api } from '../Api/Api';
 import { useHistory } from 'react-router';
 
 export default function Update(info) {
-  console.log(info);
 
   const [name, setName] = useState(info.location.state.name);
   const [url, setUrl] = useState(info.location.state.url);
